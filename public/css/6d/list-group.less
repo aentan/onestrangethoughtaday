@@ -1,0 +1,17 @@
+@import "../less/list-group.less";
+
+// Individual list items
+//
+// Tweaks for which is also a .form-group
+
+.list-group-item {
+  &.form-group {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4px 3px;
+  }
+  [class^='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

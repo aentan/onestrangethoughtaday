@@ -1,0 +1,15 @@
+@import "../less/forms.less";
+
+// Form control plain style
+//
+// For use with .list-group
+
+.input-plain {
+  border-radius: 0;
+  border: 0;
+  .box-shadow(none);
+  &:focus {
+    border-color: @input-bg;
+    .box-shadow(none);
+  }
+}
