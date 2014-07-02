@@ -11,8 +11,9 @@
     <div class="container">
       {% block content %}{% endblock %}
     </div>
+    {% include "footers/email-landing" %}
     <script src="//code.jquery.com/jquery.min.js"></script>
     {{ "bootstrap.js" | asset_url | script_tag }}
+    {{ "device.js" | asset_url | script_tag }}
   </body>
-  {% include "footers/email-landing" %}
 </html>

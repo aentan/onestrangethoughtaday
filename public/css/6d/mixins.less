@@ -1,6 +1,6 @@
 @import "../less/mixins.less";
 
-.generate-vertical-margins(@n, @i: 1) when (@i =< @n) {
+.generate-vertical-margins(@n, @i: 0) when (@i =< @n) {
   .bottom-margins-@{i} {
     margin-bottom: (@i * @line-height-computed);
   }
