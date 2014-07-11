@@ -1721,8 +1721,6 @@ select[multiple].input-lg {
 }
 .form-control {
   border: 0;
-  -webkit-transition: 'text-align, 0.5s';
-  transition: 'text-align, 0.5s';
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: none;
