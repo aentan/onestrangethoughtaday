@@ -1,4 +1,3 @@
-6dwebapp
-========
+# One Strange Thought A Day
 
-Templates for 6degrees web app
+Subscribe at [www.onestrangethoughtaday.com](www.onestrangethoughtaday.com).
